@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Python MCQs Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Python Basic MCQs Quiz</h1>
+
+    <!-- Setup Form -->
+    <div id="setup">
+      <label for="questionLimit">Number of Questions (Max 100):</label>
+      <input type="number" id="questionLimit" min="1" max="100" value="10" />
+
+      <label for="timeLimit">Time Limit (minutes):</label>
+      <input type="number" id="timeLimit" min="1" max="60" value="10" />
+
+      <button id="startBtn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Section -->
+    <div id="quiz" class="hidden">
+      <div class="info-bar">
+        <span>Questions: <span id="current">1</span>/<span id="total">0</span></span>
+        <span>Time Left: <span id="time">00:00</span></span>
+      </div>
+      <div class="question-box" id="questionBox"></div>
+      <div class="options-box" id="optionsBox"></div>
+      <button id="nextBtn" disabled>Next</button>
+    </div>
+
+    <!-- Result Section -->
+    <div id="result" class="hidden">
+      <h2>Quiz Completed!</h2>
+      <p>Your Score: <strong id="score">0</strong>/<span id="totalScore">0</span></p>
+      <button id="restartBtn">Restart</button>
+    </div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
