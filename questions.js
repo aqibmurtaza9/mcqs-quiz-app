@@ -868,7 +868,92 @@ const questions = [
     question: "What does Azure Status show?",
     options: ["Billing history", "User roles", "Global Azure health", "Region resource usage"],
     correctIndex: 2
-  }
+  },
+  {
+    question: "Deploying and configuring cloud-based resources quickly as business requirements change is called",
+    options: ["Agility", "Scalability", "Elasticity", "Redundancy"],
+    correctIndex: 0
+  },
+  {
+    question: "In cloud computing, which feature allows you to deploy applications to regional datacenters around the world?",
+    options: ["Geo-location", "High availability", "Scalability", "Virtual networking"],
+    correctIndex: 0
+  },
+  {
+    question: "Which type of cloud service model is typically licensed through a monthly or annual subscription?",
+    options: ["Software as a Service (SaaS)", "Infrastructure as a Service (IaaS)", "Platform as a Service (PaaS)", "Serverless computing"],
+    correctIndex: 0
+  },
+  {
+    question: "Which Azure component allows you to replicate resources across a geography to ensure business continuity during a natural disaster at the primary site?",
+    options: ["Region pairs", "Azure Virtual Machine Scale Sets", "Availability zones", "Azure Backup"],
+    correctIndex: 0
+  },
+  {
+    question: "Which two scenarios are common use cases for Azure Blob storage?",
+    options: ["Serving images or documents directly to a browser", "Storing data for backup and restore", "Hosting virtual machines", "Running containerized applications"],
+    correctIndex: 0
+  },
+  {
+    question: "Mounting a file storage share to be accessed as a virtual drive on multiple virtual machines refers to which Azure storage type?",
+    options: ["Azure Files", "Azure Blob Storage", "Azure Tables", "Azure Disks"],
+    correctIndex: 0
+  },
+  {
+    question: "To which object or level is an Azure role-based access control (RBAC) role applied?",
+    options: ["Scope", "Policy", "Subscription", "Resource Group"],
+    correctIndex: 0
+  },
+  {
+    question: "Which type of strategy uses a series of mechanisms to slow the advancement of an attack that aims to gain unauthorized access to data?",
+    options: ["Defense in depth", "Distributed denial-of-service (DDoS)", "Zero Trust", "Role-based security"],
+    correctIndex: 0
+  },
+  {
+    question: "Which two features are available by using Azure Cost Management + Billing?",
+    options: ["Create and manage budgets", "Generate historical reports and forecast future usage", "Set network rules", "Monitor CPU performance"],
+    correctIndex: 0
+  },
+  {
+    question: "You need to associate the costs of resources to different groups within an organization without changing the location of the resources. What should you use?",
+    options: ["Resource tags", "Administrative units", "Resource groups", "Azure Locks"],
+    correctIndex: 0
+  },
+  {
+    question: "What can you use to ensure that a development team can only create virtual machines of a certain size?",
+    options: ["Azure Policy", "Conditional Access", "Azure Advisor", "Access control (IAM)"],
+    correctIndex: 0
+  },
+  {
+    question: "You need to review the root cause analysis (RCA) report for a service outage that occurred last week. What should you use?",
+    options: ["Azure Service Health", "Log Analytics", "Azure Monitor", "Resource Health"],
+    correctIndex: 0
+  },
+  {
+    question: "You need to create a custom solution that uses thresholds to trigger autoscaling functionality to scale an app up or down to meet user demand. What should you use?",
+    options: ["Azure Monitor", "Application Insights", "Azure Automation", "Azure Policy"],
+    correctIndex: 0
+  },
+  {
+  question: "Which type of VPN connection is used to connect a single client computer to an Azure virtual network?",
+  options: [
+    "Point-to-Site VPN",
+    "Site-to-Site VPN",
+    "ExpressRoute",
+    "Private Link"
+  ],
+  correctIndex: 0
+},
+{
+  question: "Which type of VPN connection is used to connect an entire on-premises network to an Azure virtual network?",
+  options: [
+    "Site-to-Site VPN",
+    "Point-to-Site VPN",
+    "ExpressRoute",
+    "Peering"
+  ],
+  correctIndex: 0
+}
 ]
 
 
